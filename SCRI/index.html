@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smart Supply Chain Risk Intelligence</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <!-- Header and navigation -->
+  <header class="app-header">
+    <div class="brand">Smart Supply Chain Risk Intelligence</div>
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="erdiagram.html">Suppliers</a>
+      <a href="analytics.html">Shipments</a>
+      <a href="alerts.html">Alerts</a>
+      <a href="analytics.html">Analytics</a>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main class="container">
+    <section class="hero">
+      <h1>Real-time Supply Chain Risk Tracking</h1>
+      <p>The system predicts and monitors supply chain risks using supplier performance, shipment delays, and inventory levels. It offers real-time alerts and dashboards for proactive decision-making.</p>
+      <div class="actions">
+        <a class="btn primary" href="analytics.html">Open Analytics</a>
+        <a class="btn" href="alerts.html">View Alerts</a>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <div class="card-title">Active Suppliers</div>
+        <div class="metric" id="metricSuppliers">3</div>
+        <div class="card-sub">Connected and monitored</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Shipments In Transit</div>
+        <div class="metric" id="metricTransit">1</div>
+        <div class="card-sub">Currently moving</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Open Alerts</div>
+        <div class="metric accent" id="metricAlerts">4</div>
+        <div class="card-sub">Requires attention</div>
+      </div>
+      <div class="card">
+        <div class="card-title">Inventory Health</div>
+        <div class="metric" id="metricInventory">OK</div>
+        <div class="card-sub">Across warehouses</div>
+      </div>
+    </section>
+
+    <section class="split">
+      <div class="panel">
+        <h2>Risk Intelligence</h2>
+        <p>Combines supplier KPIs with shipment telemetry and inventory thresholds to compute dynamic risk scores and generate prioritized alerts.</p>
+      </div>
+      <div class="panel">
+        <h2>Dashboards</h2>
+        <p>Visualizes supplier risk and delay distribution using pure JavaScript charts for fast situational awareness.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer">© 2025 Smart Supply Chain Risk Intelligence</footer>
+  <script src="script.js"></script>
+</body>
+</html>
